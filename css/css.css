@@ -1,0 +1,246 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    max-width: 1050px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+
+}
+/* start header */
+.header{
+    overflow: hidden;
+}
+.header .over{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color:#00000063;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+.header .slider{
+    background-image: url('../image//hhhh.jpg');
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.header .header-area{
+    overflow: hidden;
+    background-color:#000000b5 ;
+    padding: 5px;
+    color: #fff;
+    padding-left: 145px;
+    padding-right: 145px;
+    
+}
+.header .header-info{
+    float: left;
+    font-size: 23px;
+    margin-left: 15px;
+    text-transform: capitalize;
+    padding-top: 10px;
+
+}
+.header .header-info span{
+    color: red;
+    font-weight: bold;
+}
+.header .header-info .col {
+    color: blue;
+
+}.header .header-linkea{
+    float: right;
+    margin-right: 15px;
+}
+
+.header-area .header-linkea ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 0;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.header-area .header-linkea ul li a {
+    text-decoration: none;
+    color: #eee;
+}
+.header-area .header-linkea ul li a.active{
+    color: red;
+}
+.header .iteroduation{
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+}
+.header .iteroduation p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.2;
+    margin-bottom: 33px;
+}
+.header .iteroduation button {
+    border: 1px solid #eee;
+    outline: none;
+    background: none;
+    color: #d52b2b;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* end header */
+/* sart info */
+.all-info{
+    background-color: #ffff;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.all-info .all{
+    width: 100%;
+    display: flex
+}
+.all-info .all .info{
+    margin-left: 4%;
+}
+.all-info .all .info h2{
+    color: #636363;
+    margin-bottom: 30px;
+}
+.all-info .all .info p{
+    font-size: 14px;
+    color: #929292;
+    line-height: 1.4;
+}
+/* end info */
+/* sart media */
+
+
+.media{
+    background-color: #eaeaea4a;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.all-media:before {
+    content: '';
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.media .all-media{
+    overflow: hidden;
+}
+.all-media:after {
+    content: '';
+    background-color: #333;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.media .audio{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px
+
+}
+.media .audio audio{
+    margin-bottom: 10px;
+    padding: 25px;
+    background-color: #243688;
+    display: block;
+    z-index: 2;
+    position: relative;
+}
+.media .video{
+    margin-right: 50px;
+    float: right;
+    z-index: 2;
+    position: relative;
+}
+.media .video video{
+    outline: none;
+}
+
+/* end media */
+/* start about me */
+.about-me{
+    background-color: #ffff;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-me .about-info{
+    overflow: hidden;
+    display: flex
+}
+.about-me .about-info .left p{
+    color: #292929;
+    font-size: 17px;
+    padding-right: 100px;
+
+}
+.about-me .about-info .left .total{
+    margin-left: 10px;
+}
+.about-me .about-info .left .total h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.about-me .about-info .right img{
+    border-radius: 50%;
+}
+
+
+
+
+/* end about me */
+.contact-us{
+    background-color: #000000c4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-us .contact input{
+    padding: 10px;
+    outline: none;
+    margin-top: 30px;
+    width: 240px;
+}
+.contact-us .contact textarea{
+    overflow: auto;
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+/* end about me */
+/* start footer */
+.footer-end {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #454545;
+}
+/* start footer */

@@ -1,0 +1,19 @@
+table{
+    
+    border:5px solid #ff0000;
+    width:400px;
+    height:300px;
+    text-align: center;
+    justify-content: center;
+}
+table tr th img{
+    width:316px;
+    height:280px;
+    text-align: center;
+}
+div{
+    font-size: 25px;
+    padding: 10px;
+    background-color: #eeeeee;
+    margin-right: 50px;
+}
